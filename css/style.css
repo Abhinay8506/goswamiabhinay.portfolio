@@ -244,7 +244,11 @@ textarea {
     max-width: 80rem; }
   .home-hero__cta {
     margin-top: 5rem;
-    text-align: center; }
+    text-align: center; 
+   
+  }
+
+
 
 .about {
   background: #fafafa; }
@@ -275,6 +279,161 @@ textarea {
         margin: 0 3px; }
       .about__content-details-para:last-child {
         margin-bottom: 4rem; }
+
+    
+
+
+        .qualifications-container {
+          max-width: 600px;
+          margin: 100px auto;
+          padding: 20px;
+          background-color: #fff;
+          border-radius: 8px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          text-align: left;
+      }
+      
+      .qualifications-container h2 {
+          margin-bottom: 20px;
+          font-size: 24px;
+          color: #333;
+          text-align: center;
+      }
+      .main-ins{
+        margin-left:50px;
+        font-size:25px;
+      }
+      
+      .qualification-list {
+          list-style: none;
+          padding: 0;
+          position: relative;
+          margin-left: 40px;
+      }
+      
+      .qualification-list::before {
+        content: '';
+        position: absolute;
+        top: 20px; 
+        left: 20px;
+        width: 4px;
+        height: calc(100% - 20px);
+        background-color: #333;
+      }
+      
+      .qualification-list > li {
+          position: relative;
+          font-size: 16px;
+          color: #555;
+          padding: 20px 0;
+          border-bottom: 1px solid #ddd;
+      }
+      
+      .qualification-list > li::before {
+          content: '';
+          position: absolute;
+          left: 14px;
+          top: 20px;
+          width: 16px;
+          height: 17px;
+          background-color: #333;
+          border-radius: 50%;
+      }
+      
+      .institution {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          font-weight: bold;
+      }
+      
+      .duration {
+          font-size: 16px;
+          color: #999;
+      }
+      
+      .qualification-list p {
+          font-size: 16px;
+          color: #666;
+          margin: 2px 0;
+          margin-left: 20px;
+      }
+
+
+
+.about__content-image img{
+   
+   height:400px;
+   border:solid black 5px;
+   border-radius: 50%;
+   margin-right: 10px;
+   
+
+
+
+}
+.about__content-image{
+  margin-right: 10px;
+}
+
+.link-btn{
+  display:flex;
+  font-size:10px;
+  
+  margin-top:20px;
+}
+.link-btn a{
+   font-size: 12px;
+   height:100px;
+   border-radius:10%;
+   margin-left: 20px;
+   border:1px solid black;
+
+}
+
+.skill-title{
+  font-size: 30px;
+  padding:20px;
+  align-items: center;
+  justify-content: center;
+}
+.development-skill{
+  width:40%;
+  margin-left:10px;
+  margin-right:10px;
+  border: 1px solid black;
+  border-radius: 10%;
+  background-color: white;
+  PADDING:20PX;
+}
+.data-skill{
+  width:60%;
+  margin-left:10px;
+  margin-right:10px;
+  border: 1px solid black;
+  border-radius: 10%;
+  background-color: white;
+  PADDING:20PX;
+
+}
+.data-head{
+  margin-left:20px;
+}
+.program-skill{
+  width:40%;
+  margin-left:10px;
+  margin-right:10px;
+  border: 1px solid black;
+  border-radius: 10%;
+  background-color: white;
+  PADDING:20PX;
+}
+.skill-btn{
+  margin-left:15px;
+  align-items: center;
+  justify-content: center;
+}
+
 
 .projects__row {
   display: grid;
@@ -662,6 +821,10 @@ textarea {
     @media only screen and (max-width: 56.25em) {
       .main-footer__lower {
         padding: 3.5rem 0; } }
+
+.skill-sections{
+  display:flex;
+}
 
 .skills {
   display: flex;
